@@ -1,0 +1,74 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "FastWiki"
+			}
+		}
+	    ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "查询",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/info/info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "首页",
+		"navigationBarBackgroundColor": "#1B6FA4",
+		"backgroundColor": "#1B6FA4"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#666",
+		"selectedColor": "#31c27c",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/shouye_1.png",
+				"selectedIconPath": "static/icon/shouye.png"
+			},
+			{
+				"text": "个人中心",
+				"pagePath": "pages/user/user",
+				"iconPath": "static/icon/yonghu.png",
+				"selectedIconPath": "static/icon/yonghu_1.png"
+			},
+			{
+				"text": "查询",
+				"pagePath": "pages/search/search",
+				"iconPath": "static/icon/chaxun_1.png",
+				"selectedIconPath": "static/icon/chaxun.png"
+			},
+			{
+				"text": "详情",
+				"pagePath": "pages/info/info",
+				"iconPath": "static/icon/neirong_1.png",
+				"selectedIconPath": "static/icon/neirong.png"
+			}
+		]
+	}
+}
